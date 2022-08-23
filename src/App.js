@@ -9,7 +9,7 @@ function App() {
           <label  htmlFor="name">Name</label>
           <input type="string" id='name'></input>
         </div>
-        <div>
+        {/* <div>
           <label htmlFor='gen'>Gender</label>
           <input type="radio" id='gen'>Male</input>
           <input type="radio" id='gen'>Female</input>
@@ -29,7 +29,7 @@ function App() {
         <div>
           <label htmlFor='date'>Degree Year</label>
           <input id='date' type="date"></input>
-        </div>
+        </div> */}
       </form>
     </div>
   );
