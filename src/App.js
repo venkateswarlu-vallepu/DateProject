@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <form>
       <div>
-          <label  htmlFor='name'>Name</label>
+          <label  htmlFor="name">Name</label>
           <input type="string" id='name'></input>
         </div>
         <div>
