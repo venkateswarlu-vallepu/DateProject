@@ -30,7 +30,7 @@ function App() {
           <label htmlFor='date'>Degree Year</label>
           <input id='date' type="date"></input>
         </div>
-        console.log("venkatesh")
+        
       </form>
       
     </div>
