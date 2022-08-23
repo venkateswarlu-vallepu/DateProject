@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import moment from 'moment';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <div>
+          <label  htmlFor='name'>Name</label>
+          <input type="string" id='name'></input>
+        </div>
+        <div>
+          <label htmlFor='gen'>Gender</label>
+          <input type="radio" id='gen'>Male</input>
+          <input type="radio" id='gen'>Female</input>
+        </div>
+        <div>
+          <label htmlFor='date'>DOB</label>
+          <input id='date' type="date"></input>
+        </div>
+        <div>
+          <label htmlFor='date'>SSC Year</label>
+          <input id='date' type="date"></input>
+        </div>
+        <div>
+          <label htmlFor='date'>INTER Year</label>
+          <input id='date' type="date"></input>
+        </div>
+        <div>
+          <label htmlFor='date'>Degree Year</label>
+          <input id='date' type="date"></input>
+        </div>
+      </form>
+      
     </div>
   );
 }
