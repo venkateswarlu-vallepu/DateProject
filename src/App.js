@@ -6,7 +6,7 @@ import moment from 'moment';
 function App() {
 
   let date = useRef();
-  let dob = useRef();
+ 
   let ageType = useRef();
   let ssc = useRef();
   let inter = useRef();
@@ -29,7 +29,7 @@ function App() {
   let birthDate = new Date(dateOfBirth);
   let age = today.getFullYear()-birthDate.getFullYear();
   
-  if (dateOfBirth !=""){
+  if (dateOfBirth !==""){
     if (age >= 18) {
       ageType.current.innerHTML= "Major";
       ageType.current.style.color = "green";
