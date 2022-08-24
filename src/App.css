@@ -1,5 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&display=swap');
+
+
 .App {
   text-align: center;
 }
 
+body {
+  background-image: url(https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg?w=2000);
+}
 
+.form{
+
+  position: relative;
+  top: 50px;
+  left: 550px;
+  border: 3px ridge white;
+  border-width: 20px;
+  border-radius: 20px;
+  width: 450px;
+  background-color: rgba(255, 255, 255,0.5);
+}
+.button {
+  margin: 25px 0px 30px 0px;
+  height: 45px;
+  width: 250px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background: darkblue;
+  border-radius: 3px;
+  border: 1px solid rgb(57, 73, 171);
+}
+.button:hover {
+  color: grey;
+}
+.input1{
+  margin-left: 60px;
+}
+.inputname{
+  margin-left: 70px;
+  width: 180px;
+  position: relative;
+  left: 10px;
+}
+.inputms {
+  margin-left: 40px;
+}
+.inputms1 {
+  margin-left: 40px;
+}
+.ms1 {
+  margin-left: -30px;
+}
+.div1 {
+  margin-top: 10px;
+}
+.input2 {
+  margin-left: 50px;
+  position: relative;
+  left: 20px;
+}
+.inputdob{
+  margin-left: 50px;
+  position: relative;
+  left: 30px;
+  width: 180px;
+}
+.inputinter{
+  margin-left: 50px;
+  position: relative;
+  left: 7px;
+  width: 180px;
+}
+.inputdegree{
+  margin-left: 50px;
+  position: relative;
+  left: 5px;
+  width: 180px;
+}
+.inputssc{
+  margin-left: 50px;
+  position: relative;
+  left: 16px;
+  width: 180px;
+}
+label{
+  font-weight: bold;
+  
+}
+.ms {
+  position: relative;
+  left: -0px;
+}
+span {
+  position: relative;
+  left: 40px;
+}
+h1{
+  font-size: 90px;
+  text-decoration: underline;
+  margin-bottom: -30px;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  color: skyblue;
+  font-weight: normal;
+  position: relative;
+  left: 30px;
+  width: fit-content;
+}
