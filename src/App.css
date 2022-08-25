@@ -25,15 +25,15 @@ body {
   height: 45px;
   width: 250px;
   font-size: 20px;
-  color: white;
+  color: black;
   cursor: pointer;
   font-weight: bold;
-  background: darkblue;
+  background: rgb(106, 106, 213);
   border-radius: 3px;
   border: 1px solid rgb(57, 73, 171);
 }
 .button:hover {
-  color: grey;
+  background-color: skyblue;
 }
 .input1{
   margin-left: 60px;

@@ -11,9 +11,9 @@ function App() {
   let ssc = useRef();
   let inter = useRef();
   let degree = useRef();
-  let sscPassOut = useRef();
-  let interPassOut = useRef();
-  let degreePassOut = useRef();
+  let sscYOP = useRef();
+  let interYOP = useRef();
+  let degreeYOP = useRef();
   
 
 
@@ -24,18 +24,19 @@ function App() {
 
  let onButtonClick = ()=> {
 
-  let dateOfBirth = date.current.value;
+  let dob = date.current.value;
   let today = new Date();
-  let birthDate = new Date(dateOfBirth);
+  let birthDate = new Date(dob);
   let age = today.getFullYear()-birthDate.getFullYear();
   
-  if (dateOfBirth !==""){
+  if (dob !==""){
     if (age >= 18) {
       ageType.current.innerHTML= "Major";
       ageType.current.style.color = "green";
     } else {
       ageType.current.innerHTML = "Minor";
       ageType.current.style.color = "red";
+      
     }
    } else
      {
@@ -48,18 +49,21 @@ function App() {
      //SSC
 
      let sscDate = ssc.current.value;
-     sscPassOut.current.innerHTML = (moment(sscDate, "YYYYMMDD").fromNow());
+     sscYOP.current.innerHTML = (moment(sscDate, "YYYYMMDD").fromNow());
+     
 
 
      //Inter
 
      let interDate = inter.current.value;
-     interPassOut.current.innerHTML = (moment(interDate, "YYYYMMDD").fromNow());
+     interYOP.current.innerHTML = (moment(interDate, "YYYYMMDD").fromNow());
+    
+     
 
     //Degree
 
     let degreeDate = degree.current.value;
-    degreePassOut.current.innerHTML = (moment(degreeDate, "YYYYMMDD").fromNow());
+    degreeYOP.current.innerHTML = (moment(degreeDate, "YYYYMMDD").fromNow());
 
   }
 
@@ -109,7 +113,7 @@ function App() {
           <label htmlFor='date2'>SSC Year:</label>
           <input className='inputssc' ref={ssc} id='date2' type="date"></input>
           <div>
-          <span className='input1' ref={sscPassOut}></span>
+          <span className='input1' ref={sscYOP}></span>
           </div>
         </div>
         <br></br>
@@ -117,7 +121,7 @@ function App() {
           <label htmlFor='date3'>INTER Year:</label>
           <input className='inputinter' ref={inter} id='date3' type="date"></input>
           <div>
-          <span className='input1' ref={interPassOut}></span>
+          <span className='input1' ref={interYOP}></span>
           </div>
         </div>
         <br></br>
@@ -125,7 +129,7 @@ function App() {
           <label htmlFor='date4'>Degree Year:</label>
           <input className='inputdegree' ref={degree} id='date4' type="date"></input>
           <div>
-          <span className='input1' ref={degreePassOut}></span>
+          <span className='input1' ref={degreeYOP}></span>
           </div>
         </div>
         <br></br>
