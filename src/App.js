@@ -81,8 +81,8 @@ function App() {
         </div>
         <br></br>
         <div>
-          <label htmlFor='gen'>Gender:</label>
-          <input className='input1' type="radio" id='gen1' name='gender'></input>
+          <label className='gen' htmlFor='gen'>Gender:</label>
+          <input className='inputg' type="radio" id='gen1' name='gender'></input>
           <label htmlFor='gen1'>Male</label>
           <input className='input1' type="radio" id='gen2'  name='gender'></input>
           <label htmlFor='gen2'>Female</label>

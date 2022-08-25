@@ -38,6 +38,9 @@ body {
 .input1{
   margin-left: 60px;
 }
+.inputg{
+  margin-left: 80px;
+}
 .inputname{
   margin-left: 70px;
   width: 180px;
@@ -45,13 +48,15 @@ body {
   left: 10px;
 }
 .inputms {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .inputms1 {
   margin-left: 40px;
 }
 .ms1 {
   margin-left: -30px;
+  position: relative;
+  left: 10px;
 }
 .div1 {
   margin-top: 10px;
@@ -88,6 +93,10 @@ body {
 label{
   font-weight: bold;
   
+}
+.gen{
+  position: relative;
+  left: 5px;
 }
 .ms {
   position: relative;
